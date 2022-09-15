@@ -1,0 +1,36 @@
+.Navbar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: black;
+    color: white;
+    height: 60px;
+}
+
+.NavButtons {
+    display: flex;
+    gap: 1rem;
+}
+
+.NavButtons button {
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 5px;
+    font-weight: bolder;
+    color: white;
+}
+
+.NavButtons button:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+    transition: all ease-in 0.2s;
+}
+
+.Navbar .SignIn {
+    background-color: #4C5FD5;
+}
+
+.Navbar .SubmitRequest {
+    background-color: rgba(0,0,0,0.7);
+    border: 1px solid white;
+}

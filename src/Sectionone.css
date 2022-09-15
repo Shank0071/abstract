@@ -1,0 +1,33 @@
+.Sectionone {
+    background-color: #dadbf1;
+    padding: 5rem;
+    font-weight: lighter;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.Sectionone div {
+    width: 30%;
+    margin: 0 auto;
+    height: max-content;
+    border: 1px solid black;
+    border-radius: 0.2rem;
+    display: flex;
+    align-items: center;
+}
+
+.Sectionone input {
+    width: 90%;
+    padding: 0.5rem ;
+    background: transparent;
+    border: none;
+}
+
+.Sectionone input:focus {
+    outline: none;
+}
+
+.Sectionone .arrow:hover {
+    cursor: pointer;
+}
